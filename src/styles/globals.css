@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  /* NEW Brand Colors - Gold, Orange, Blue */
+  --color-blue: #0167B3;
+  --color-orange: #F15921;
+  --color-gold: #FFD700;
+  --color-black: #1A1A1A;
+  
+  /* Supporting Colors */
+  --color-dark-gray: #4A4A4A;
+  --color-light-gray: #F5F5F5;
+  --color-border: #E5E5E5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+  color: var(--color-dark-gray);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--color-black);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+}
